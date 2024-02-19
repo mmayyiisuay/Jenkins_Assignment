@@ -2,6 +2,6 @@ version: "3.8"
 services:
   app:
     container_name: app
-    image: mmayyiisuay/jenkins-assignment:lastest
+    image: mmayyiisuay/jenkins-assingment:lastest
     ports:
       - "3001:3001" 

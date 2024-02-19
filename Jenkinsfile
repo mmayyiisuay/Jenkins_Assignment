@@ -33,14 +33,14 @@ pipeline {
         sh 'cd ./robot && python3 -m robot ./test-api.robot'
       }
     }
-    stage('Building Image') {
+    stage('Building Image ️') {
       steps {
-        sh 'docker build -t mmayyiisuay/jenkins-assignment:lastest .'
+        sh 'docker build -t mmayyiisuay/jenkins-assingment:lastest .'
       }
     }
     stage('Push ⬆️') {
       steps {
-        sh 'docker push mmayyiisuay/jenkins-assignment:lastest'
+        sh 'docker push mmayyiisuay/jenkins-assingment:lastest'
       }
     }
     stage('Clean Workspace') {
