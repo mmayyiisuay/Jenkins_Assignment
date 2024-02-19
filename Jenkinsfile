@@ -6,7 +6,7 @@ pipeline {
   stages {
     stage('Clone') {
       steps {
-        git branch: 'main', url: 'https://github.com/mmayyiisuay/Jenkins_Assignment.git'
+        git branch: 'main', url: 'https://github.com/softdev-practice-kmitl/Jenkins_Assignment.git'
         sh 'whoami'
       }
     }
